@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4 - Mostrar un mensaje segun la edad</title>
+    <link rel="stylesheet" href="ejercicio4.css">
+</head>
+<body>
+    <h1>Ejercicio 4 - Mostrar un mensaje segun la edad</h1>
+    <p><strong>Enunciado:</strong> Crear un programa en JavaScript embebido que evalua la edad de una persona y muestre si es menor de edad o mayor de edad.</p>
+    <div id="resultado"></div>
+
+    <script>
+        let edad = 20;
+        let mensaje = (edad >= 18) ? "Mayor de edad" : "Menor de edad";
+        document.getElementById("resultado").innerHTML = "Edad ingresada: " + edad + "<br>Resultado: " + mensaje;
+    </script>
+
+    <p><a href="index.html">Volver al menu</a></p>
+</body>
+</html>

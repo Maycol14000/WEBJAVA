@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2 - Verificar si un numero es par o impar</title>
+    <link rel="stylesheet" href="ejercicio2.css">
+</head>
+<body>
+    <h1>Ejercicio 2 - Verificar si un numero es par o impar</h1>
+    <p><strong>Enunciado:</strong> Crear un programa en JavaScript embebido que evalua si un numero es par o impar y muestre el resultado en la pagina HTML.</p>
+    <div id="resultado"></div>
+
+    <script>
+        let numero = 12;
+        let resultado = (numero % 2 === 0) ? "par" : "impar";
+        document.getElementById("resultado").innerHTML = "El numero " + numero + " es: " + resultado;
+    </script>
+
+    <p><a href="index.html">Volver al menu</a></p>
+</body>
+</html>

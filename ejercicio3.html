@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3 - Calcular el promedio de tres notas</title>
+    <link rel="stylesheet" href="ejercicio3.css">
+</head>
+<body>
+    <h1>Ejercicio 3 - Calcular el promedio de tres notas</h1>
+    <p><strong>Enunciado:</strong> Crear una pagina HTML que calcule el promedio de tres notas de un estudiante usando JavaScript embebido. El resultado debe mostrarse en pantalla.</p>
+    <div id="resultado"></div>
+
+    <script>
+        let nota1 = 14;
+        let nota2 = 16;
+        let nota3 = 18;
+        let promedio = (nota1 + nota2 + nota3) / 3;
+        document.getElementById("resultado").innerHTML = "Las notas son " + nota1 + ", " + nota2 + " y " + nota3 + ".<br>El promedio es: " + promedio.toFixed(2);
+    </script>
+
+    <p><a href="index.html">Volver al menu</a></p>
+</body>
+</html>
